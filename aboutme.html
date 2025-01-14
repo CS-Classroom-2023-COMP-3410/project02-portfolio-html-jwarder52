@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- Ensures the page is responsive on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage displayed in the browser tab -->
     <title>My Portfolio</title>
 </head>
 <body style="background-color: CadetBlue; margin: 0; padding: 0;">
 
-    <!-- Container for the entire page content -->
+    <!-- Container for the entire page content with a beige border -->
     <div style="border: 10px solid beige; padding: 20px;">
 
+        <!-- Main heading for the portfolio -->
         <h1 style="text-align: center;">My Portfolio</h1>
         <hr>
 
+        <!-- Table for displaying content in two columns -->
         <table border="1" style="width: 100%; background-color: BurlyWood;">
             <tr>
+                <!-- First column with personal information -->
                 <td style="vertical-align: top;">
+                    <!-- First flexbox section for displaying an image and information side by side -->
                     <div style="display: flex; align-items: center;">
+                        <!-- Image of Jack Warder with alt text for accessibility -->
                         <img src="My-Picture.jpeg" alt="Picture of Jack Warder" style="width: 150px; height: auto; margin-right: 10px;">
+                        <!-- Personal information about Jack -->
                         <div>
                             <p>Name: Jack Warder</p>
                             <p>Age: 23</p>
@@ -27,8 +36,11 @@
                         </div>
                     </div>
                     <hr>
+                    <!-- Second flexbox section for displaying an image and information side by side -->
                     <div style="display: flex; align-items: center;">
+                        <!-- Image of Maizy with alt text for accessibility -->
                         <img src="maizy.jpeg" alt="Picture of Maizy" style="width: 150px; height: auto; margin-right: 10px;">
+                        <!-- Personal information about Maizy -->
                         <div>
                             <p>Name: Maizy</p>
                             <p>Age: 12 (84 Dog)</p>
@@ -38,8 +50,11 @@
                         </div>
                     </div>
                 </td>
+
+                <!-- Second column with lists of hobbies, favorites, etc. -->
                 <td style="vertical-align: top;">
                     <div style="display: flex; flex-wrap: wrap;">
+                        <!-- First section with hobbies, movies, books, and video games -->
                         <div style="width: 50%;">
                             <h2>Hobbies</h2>
                             <ul>
@@ -66,6 +81,8 @@
                                 <li>Minecraft</li>
                             </ol>
                         </div>
+
+                        <!-- Second section with songs, artists, food, and sodas -->
                         <div style="width: 50%;">
                             <h2>Favorite Songs</h2>
                             <ol>
@@ -97,7 +114,8 @@
             </tr>
         </table>
         <hr>
-        <!-- Footer Section -->
+
+        <!-- Footer section with links to other pages -->
         <footer style="margin-top: 25px; padding-top: 20px; text-align: center;">
             <h2>Links</h2>
             <ul style="list-style-type: none; padding: 0;">
